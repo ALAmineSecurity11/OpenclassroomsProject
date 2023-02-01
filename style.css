@@ -1,4 +1,108 @@
-h1{
-	color: blue;
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* header */
+header #first_header {
+	margin: 0px;
+	padding: 0px;
+}
+#first_header{
+	background-color: white;
+/*	border: 1px solid blue;*/
+	height: 30px;
 	text-align: center;
 }
+#first_header p{
+	display: inline-block;
+}
+#first_header .middle{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+#first_header .middle span{
+	color: green;
+}
+#first_header .left{
+	float: left;
+	padding-left: 1rem;
+}
+#first_header .right{
+	float: right;
+	padding-right: 6rem;
+}
+#navbar{
+	background-color: green;
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+}
+#navbar ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px;
+	padding-left: 1rem;
+}
+#navbar ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+#navbar ul li a:hover{
+	border-bottom: 3px solid white;
+}
+
+/* end header */
+
+#image_home{
+	text-align: center;
+	padding: 170px;
+}
+#image_home p{
+	font-weight: bold;
+	font-size: 2rem;
+}
+#image_home a{
+	background-color: green;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+}
+/*Corps de la page */
+.description{
+	margin: 10px;
+	padding: 10px;
+	padding-left: 100px;
+/*	border: 2px solid blue;*/
+	width: 40%;
+}
+.description h1{
+	font-size: 2.3rem;
+}
+.description h1 span{
+	color: green;
+}
+.description h1{
+	height: 10px;
+}
+.description ul li{
+	display: inline-block;
+	padding: 8px;
+	margin: 10px;
+}
+.description ul li a{
+	text-decoration: none;
+	color: white;
+}
+.description ul .learn_more{
+	background-color: green;
+	border-radius: 3px;
+}
+.description ul .purchase_now{
+	background-color: gray;
+	border-radius: 3px;
+}
+/*fin du corps de la page*/
