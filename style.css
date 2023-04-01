@@ -82,12 +82,9 @@ body{
 }
 
 /*Corps de la page */
-#corps{
-/*	border: 2px solid blue;*/
-	display: grid;
+.desc{
 	grid-template-columns: 50% 50%;
-	/*padding-bottom: 10px;
-	justify-content: space-between;*/
+	display: grid;
 }
 .picture{
 	margin: 30px;
@@ -128,20 +125,58 @@ body{
 	background-color: gray;
 	border-radius: 3px;
 }
-.services, .title{
-/*	text-align: center;*/
-margin-left: 70%;
+
+.services{
+/*	border: 2px solid red;*/
+	/*margin-left: 20%;
+	margin-right: 20%;*/
+/*	padding: 10%;*/
+	padding-bottom: 20px;
 }
-/*
+.grid-container-services{
+/*	border: 2px solid yellow;*/
+	display: grid;
+	grid-template-columns: 350px 350px 350px;
+	/*grid-template-rows: 1fr 1fr 1fr;*/
+	grid-gap: 20px;
+	padding-left: 12%;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
 .grid-item{
 	border: 2px solid black;
-}*/
-.grid-container-services{
-	display: grid;
-	grid-template-columns: 200px 200px 200px;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-gap: 50px;
+	text-align: center;
+	padding: 20px;
+	background-color: white;
+	color: black;
 }
-.services{
-	margin-left: 60%;
+.grid-item a{
+	text-decoration: none;
+	border: 1px solid green;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 50px;
+	height: 50px;
+	background-color: gray;
+	color: white;
+}
+.ressources{
+/*	border: 2px solid blue;*/
+	background-color: black;
+}
+.title{
+/*	border-bottom: 2px solid green;*/
+	/*margin-left: 42%;
+	margin-right: 42%;*/
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	padding-top: 50px;
+}
+.bottom{
+	border-bottom: 2px solid green;
+	margin-left: 47%;
+	margin-right: 47%;
 }
