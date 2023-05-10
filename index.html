@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ma page</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 	<!-- L'ENTETE DE LA PAGE -->
@@ -27,15 +27,14 @@
 				<li><a href="#">team</a></li>
 				<li><a href="#">work</a></li>
 				<li><a href="#">bloc</a></li>
-				<li><a href="#">contact</a></li>
+				<li><a href="#contacts">contact</a></li>
 			</ul>
 		</div>
 	</header>
 	<div id="image_home">
 		<p>We Help Business Grow <br>And Innovate</p>
 		<!-- <p>Mohamed Lamine Mbengue &eacute;tudiant en Licence Transmission de donn&eacute;es et s&eacute;curit&eacute; de l'information</p> -->
-		<a href="#">Get Started now!</a>
-		<!-- Ceci n'est rien d'autresS -->
+		<button>get started now!</button>
 	</div>
 
 	<!-- LE CORPS DE LA PAGE -->
@@ -52,8 +51,8 @@
 			</p>
 			<nav>
 				<ul>
-					<li class="learn_more"><a href="#">Learn more</a></li>
-					<li class="purchase_now"><a href="#">purchase now</a></li>
+					<li class="learn_more"><button>Learn more</button></li>
+					<li class="purchase_now"><button>purchase now</button></li>
 				</ul>
 			</nav>
 		</section>
@@ -67,31 +66,37 @@
 				<h1 class="bottom"></h1>
 			<div class="grid-container-services">
 				<div class="grid-item service1">
+					<i class="fa-solid fa-paintbrush"></i>
 					<h2>creative idea</h2>
 					<p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
 					<a href="#">Read more</a>
 				</div>
 				<div class="grid-item service2">
+					<i class="fa-solid fa-calculator"></i>
 					<h2>web design</h2>
 					<p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
 					<a href="#">Read more</a>
 				</div>
 				<div class="grid-item service3">
+					<i class="fa-sharp fa-solid fa-car-side"></i>
 					<h2>24/7 support</h2>
 					<p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
 					<a href="#">Read more</a>
 				</div>
 				<div class="grid-item service4">
+					<i class="fa-solid fa-music"></i>
 					<h2>web developpement</h2>
 					<p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
 					<a href="#">Read more</a>
 				</div>
 				<div class="grid-item service5">
+					<i class="fa-solid fa-laptop"></i>
 					<h2>responsive layout</h2>
 					<p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
 					<a href="#">Read more</a>
 				</div>
 				<div class="grid-item service6">
+					<i class="fa-solid fa-paintbrush"></i>
 					<h2>color optons</h2>
 					<p>Lorem ipsum is simply dummy text of the printing and typesetting</p>
 					<a href="#">Read more</a>
@@ -101,8 +106,50 @@
 		</div>
 	</main>
 	<!-- PIEDS DE PAGES -->
-	<footer>
-
+	<footer class="contacts">
+		<form>
+			<h1 class="title" style="color: black;">Contactez-moi</h1>
+			<h1 class="bottom"></h1>
+			<div class="corps-form">
+				<div class="gauche">
+					<div class="groupe">
+						<label>pr&eacute;nom</label>
+						<input type="text" name="">
+						<i class="fa-solid fa-user"></i>
+					</div>
+					<div class="groupe">
+						<label>nom</label>
+						<input type="text" name="">
+						<i class="fa-solid fa-user"></i>
+					</div>
+					<div class="groupe">
+						<label>e-mail</label>
+						<input type="mail" name="">
+						<i class="fa-solid fa-envelope"></i>
+					</div>
+					<div class="groupe">
+						<label>t&eacute;l&eacute;phone</label>
+						<input type="phone" name="">
+						<i class="fa-solid fa-mobile"></i>
+					</div>
+				</div>
+				<div class="droite">
+					<div class="groupe">
+						<label>message</label>
+						<textarea></textarea>
+					</div>
+				</div>
+			</div>
+			<div class="pied-formulaire" align="center">
+				<button>Envoyer le message</button>
+			</div>
+		</form>
+		<div class="copyright">
+			<div>
+				<p>Copyright 2023, cette page a &eacute;t&eacute; cod&eacute;e par Mohamed Lamine MBENGUE &eacute;tudiant en L2 TDSI</p>
+			</div>
+			<div class="trait"></div>
+		</div>
 	</footer>
 </body>
 </html>
